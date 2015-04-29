@@ -1,7 +1,7 @@
 FROM centos:centos6.6
 MAINTAINER Michael Stealey <michael.j.stealey@gmail.com>
 
-VOLUME ["/var/lib/pgsql/9.3/data", "/var/lib/irods", "/var/log", "/var/backup", "/conf", "/root/.secret" ]
+VOLUME ["/var/lib/pgsql/9.3/data", "/var/lib/irods", "/etc/irods", "/var/log", "/var/backup", "/conf", "/root/.secret" ]
 
 #ENTRYPOINT ["/bin/echo"]
 #CMD ["'NO APPLICATION NAME SPECIFIED'"]
